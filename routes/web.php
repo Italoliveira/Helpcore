@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ArticlesController;
+use App\Http\Controllers\ReportsController;
+use App\Http\Controllers\TicketsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -46,3 +49,7 @@ Route::get('/', function () {
     return view('pages.client.home', ['title'=>'Home', 'posts' => $posts]);
 
 })->name('home');
+
+Route::resource('articles', ArticlesController::class);
+Route::resource('tickets', TicketsController::class);
+Route::resource('reports', ReportsController::class);
