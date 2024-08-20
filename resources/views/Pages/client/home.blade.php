@@ -9,10 +9,10 @@
     <section class="order-1 w-full md:w-1/3 h-[40vh] flex justify-center items-center my-2 md:my-0">
 
         <div class="grid grid-cols-2 grid-rows-2 gap-2 w-full h-full">
-            <x-html.btn-menu icon="icons.plus" route="home" color="bg-green-400">
+            <x-html.btn-menu icon="icons.plus" route="tickets.create" color="bg-green-400">
                 Novo Chamado
             </x-html.btn-menu>
-            <x-html.btn-menu icon="icons.history" route="home" color="bg-pink-400">
+            <x-html.btn-menu icon="icons.history" route="tickets.index" color="bg-pink-400">
                 Historico
             </x-html.btn-menu>
             <x-html.btn-menu icon="icons.file" route="home" color="bg-orange-400">

@@ -11,7 +11,7 @@ class TicketsController extends Controller
      */
     public function index()
     {
-        //
+        return view("pages.client.tickets.index", ['title' => 'Chamados']);
     }
 
     /**
@@ -19,7 +19,7 @@ class TicketsController extends Controller
      */
     public function create()
     {
-        //
+        return view("pages.client.tickets.create", ['title' => 'Chamados']);
     }
 
     /**
@@ -35,7 +35,7 @@ class TicketsController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return view("pages.client.tickets.show", ['title' => 'Chamados']);
     }
 
     /**
@@ -43,7 +43,7 @@ class TicketsController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view("pages.client.tickets.edit", ['title' => 'Chamados']);
     }
 
     /**
