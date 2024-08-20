@@ -11,13 +11,13 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-
+        return view('pages.client.articles.index', ['title' => 'Artigos']);
     }
 
 
     public function create()
     {
-        //
+        return view('pages.client.articles.create', ['title' => 'Artigos']);
     }
 
     public function store(Request $request)
@@ -30,7 +30,7 @@ class ArticlesController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return view('pages.client.articles.show', ['title' => 'Artigos']);
     }
 
     /**
@@ -38,7 +38,7 @@ class ArticlesController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view('pages.client.articles.edit', ['title' => 'Artigos']);
     }
 
     /**

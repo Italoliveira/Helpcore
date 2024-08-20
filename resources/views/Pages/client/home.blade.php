@@ -18,7 +18,7 @@
             <x-html.btn-menu icon="icons.file" route="home" color="bg-orange-400">
                 Auditoria
             </x-html.btn-menu>
-            <x-html.btn-menu icon="icons.book" route="home" color="bg-blue-400">
+            <x-html.btn-menu icon="icons.book" route="articles.index" color="bg-blue-400">
                 Artigos
             </x-html.btn-menu>
         </div>
